@@ -52,7 +52,7 @@ h2, h3 {
 /* Styles that apply to the elements in the header */
 
 #masthead {
-	background: #fff;
+	background-color: #fff;
 	margin: 0 0 30px;
 	z-index: 99;
 	color: #fff;
@@ -66,7 +66,7 @@ h2, h3 {
 	#logo {
 		width: 350px;
 		height: 90px;
-		background: #009F93;
+		background-color: #009F93;
 		float: left;
 		font-family: 'Lobster', cursive;
 		text-align: center;
@@ -129,8 +129,20 @@ h2, h3 {
 	margin-top: 10px;
 	float: left;
 	margin-right: 25px;
-	border: 2px solid #FAA634;
+	border: 5px solid #FAA634;
+	animation-name: borderChange;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
+
+/* Adding a Cool CSS3 Animation for Bonus Points*/
+
+@keyframes borderChange {
+	from {border-color: #FAA634;}
+	to {border-color: #009F93;}
+}
+
 
 .auth-image:hover {
 	opacity: 0.5;
@@ -367,7 +379,6 @@ input[type=submit]:hover {
 		margin-bottom: 20px;
 		float: left;
 		margin-right: 25px;
-		border: 2px solid #FAA634;
 	}
 
 	h1, h2 {
