@@ -430,7 +430,7 @@ input[type=submit]:hover {
 
 	.main-section {
 		margin: 0 0 40px 0;
-		width: 100%;
+		width: 94.5%;
 		max-width: 728px;
 		float: none;
 		border: 1px solid #ddd;
@@ -450,7 +450,7 @@ input[type=submit]:hover {
 	}
 
 	.sidebar {
-		width: 100%;
+		width: 94.5%;
 		max-width: 728px;
 		float: none;
 		margin: auto;
@@ -467,16 +467,16 @@ input[type=submit]:hover {
 	}	
 
 	.work {
-		width: 313px;
-		max-width: 313px;
+		/*width: 313px;
+		max-width: 313px;*/
 		float: left;
 		overflow: auto;
 
 	}
 
 	.port-image {
-		width: 313px;
-		max-width: 313px;
+		/*width: 313px;
+		max-width: 313px;*/
 		overflow: auto;
 	}
 }
