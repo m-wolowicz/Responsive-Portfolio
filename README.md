@@ -12,4 +12,4 @@ Enhance the portfolio you made last week with a mobile-responsive layout.
 
 ### Overview
 
-In this assignment, you'll create two different portfolios. The first will be an update of the one you made last week. You'll enhance the portfolio you made last week with a mobile-responsive layout.
+In this assignment, you'll create two different portfolios. The first will be an update of the one you made last week. You'll enhance the portfolio you made last week with a mobile-responsive layout using media queries.
